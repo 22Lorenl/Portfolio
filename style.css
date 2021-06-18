@@ -1,5 +1,5 @@
-p {
-    color: #9500da;
+#title1 {
+    color: white;
     font-size: 48px;
     background-color: black;
     text-align: center;
@@ -8,8 +8,8 @@ p {
     width: 500px;
     height: 500px;
     position: fixed;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 500px;
+    margin-right: 500px;
     top: 200px;
 }
 body {
@@ -29,6 +29,7 @@ body {
     margin-right: 600px;
     padding-bottom: 30px;
     padding-top: 30px;
+    margin-top: 500px;
 }
 
 button.previous{
@@ -54,6 +55,45 @@ button.previous{
 }
 a:link{
     text-decoration: none;
+}
+.buttonA {
+    display: inline-block;
+    text-align: center;
+}
+.p1 {
+    color: white;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#rectangle1 {
+    width:200px;
+    background-color: grey;
+    height: 100vh;
+    overflow: auto;
+    display: inline-block;
+}
+#rectangle2 {
+    width: 200px;
+    background-color: grey;
+    height: 100vh;
+    overflow: auto;
+    display: inline-block;
+    right: 0px;
+    position: absolute;
+}
+#rectangle3 {
+    width: 100hv;
+    height: 100px;
+    background-color: black;
 }
 
 
