@@ -1,101 +1,20 @@
 #title1 {
-    color: white;
+    text-align: center;
+    font-weight: bold;
     font-size: 48px;
-    background-color: black;
+}
+#introduction {
     text-align: center;
+    font-size: 20px;
 }
-#paragraphArt {
-    width: 500px;
-    height: 500px;
-    position: fixed;
-    margin-left: 500px;
-    margin-right: 500px;
-    top: 200px;
-}
-body {
-    color:plum;
-    background-color: white;
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 10%;
-    padding-top: 1%;
-}
-.fruit {
-    text-align: center;
-}
-.fruitLayout {
-    background-color: blue;
-    margin-left: 600px;
-    margin-right: 600px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: 500px;
-}
-
-button.previous{
-    text-align: center;
-    position: relative;
-    font-size: 90px;
-    background-color: red;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:20px;
-    padding-right:20px;
-}
-.centerbutton{
-    margin: 10px;
-    top: 85px;
-    left: 50%;
-    position: absolute;
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%)
-}
-#firstWord {
-    color:plum;
-}
-a:link{
+a:link {
     text-decoration: none;
 }
-.buttonA {
-    display: inline-block;
-    text-align: center;
-}
-.p1 {
+.buttonsHome {
     color: white;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
 }
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.buttonsHomeLayout {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
-#rectangle1 {
-    width:200px;
-    background-color: grey;
-    height: 100vh;
-    overflow: auto;
-    display: inline-block;
-}
-#rectangle2 {
-    width: 200px;
-    background-color: grey;
-    height: 100vh;
-    overflow: auto;
-    display: inline-block;
-    right: 0px;
-    position: absolute;
-}
-#rectangle3 {
-    width: 100hv;
-    height: 100px;
-    background-color: black;
-}
-
-
-
-
