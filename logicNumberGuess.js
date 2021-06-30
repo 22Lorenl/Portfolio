@@ -4,22 +4,30 @@ var userGuess;
 var guesses = 0;
 var winCounter = 0;
 var lossCounter = 0;
-var guessesUsed = [];
 var feedback;
-var stats = [];
-
+var desire = true;
+var tries = 0;
 //Logic
-//reset function
-reset();
-function reset(){
-    var computerGuess = Math.floor(Math.random()*100);
-    var userGuess = 0;
-    var guesses = 0;
-    var guessesUsed = [];
-    console.log(computerGuess);
+userGuess = prompt("Enter a number 1-100");
+computerGuess = Math.floor(Math.random()*100);
+while(tries < 10){
+    if(userGuess == computerGuess){
+        winCounter++;
+        desire = false;
+        alert(userGuess+" is the right answer");
+        tries = 11;
+    }
+    else if(userGuess != computerGuess){
+        if(userGuess > computerGuess){
+            userGuess = prompt("Lower than "+userGuess)
+            alert(computerGuess);
+            tries++;
+        }
+        else if(userGuess < computerGuess){
+            userGuess = prompt("Higher than "+userGuess)
+            tries++;
+            alert(computerGuess);
+        }
+    }
 
-    document.getElementById("yourGuess") = userGuess;
-    document.getElementById("guessesRemaining") = guesses;
-    document.getElementById("computerFeedback") = feedback;
-    document.getElementById("statistics") = stats;
 }
